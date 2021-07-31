@@ -6,13 +6,13 @@ HttpSiraStatusは転送される画像データが大きいと遅延が発生し
 OBS Studioの録画ファイルのパスと録画開始と録画終了のホットキーを設定してください。
 初回にプログラムを起動するとデフォルトのsetting.jsonが作成されますので
 OBS Studioの設定に合わせsetting.jsonを編集します。
-OBS_recording_start_hotkeyとOBS_recording_end_hotkey (デフォルトはf7とf8)
-Recording_holder OBSの録画ファイルのパス
-Hold_time_on_failure ゲーム途中終了時の録画停止タイミング(秒)
-Hold_time_on_success ゲーム成功時の録画停止タイミング(秒)
-songName_length 曲名の最大文字数 (songSubName_length songAuthorName_length mapper_lengthも同じ)
-space_or_Underbar 曲名などにスペースが含まれる場合に変換する文字(スペースでも問題なし)
-log_enable trueでログをとる　falseでログをとらない
-organize_names ファイル名にする文字列
+OBS_recording_start_hotkeyとOBS_recording_end_hotkey (デフォルトはf7とf8)。
+Recording_holder OBSの録画ファイルのパス。
+Hold_time_on_failure ゲーム途中終了時の録画停止タイミング(秒)。
+Hold_time_on_success ゲーム成功時の録画停止タイミング(秒)。
+songName_length 曲名の最大文字数 (songSubName_length songAuthorName_length mapper_lengthも同じ)。
+space_or_Underbar 曲名などにスペースが含まれる場合に変換する文字(スペースでも問題なし)。
+log_enable trueでログをとる　falseでログをとらない。
+organize_names ファイル名にする文字列。
     <songName>など<>で括られたものはHttpSiraStatusから送られてきたデータに変換されます。
     括られていないものはそのまま反映します。
