@@ -4,7 +4,7 @@ HttpSiraStatusは転送される画像データが大きいと遅延が発生し
 画像データを小さくする改変版のHttpSiraStatusと差し替えると遅延が少なく改善されます。
 
 OBS Studioの録画ファイルのパスと録画開始と録画終了のホットキーを設定してください。
-
+初回にプログラムを起動するとデフォルトのsetting.jsonが作成されますので
 OBS Studioの設定に合わせsetting.jsonを編集します。
 OBS_recording_start_hotkeyとOBS_recording_end_hotkey (デフォルトはf7とf8)
 Recording_holder OBSの録画ファイルのパス
